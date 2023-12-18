@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    background-color: rgb(67, 187, 243);
+    border-bottom: 1px solid white;
+}
+
+nav h1 {
+    font-size: 27px;
+    padding: 15px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+nav ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    color: rgb(253, 194, 0);
+    font-size: 35px;
+    background-image: url('https://wallpapercrafter.com/desktop1/591285-flames-red-orange-color-heat-temperature-flame.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 648px;
+}
+.content1 h1 {
+    margin-bottom: 0;
+}
+
+.content1 .p2 {
+    margin-top: 10px;
+}
+
+.home img {
+    width: 440px;
+    height: auto;
+    border-radius: 50%;
+}
+.aboutme {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8NG_4Tqvfl-zT3ZnDgpGyWNtWAFGXQ0vpYQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.contents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 139, 7, 0.699);
+}
+.contents img {
+    height: 330px;
+    width: 350px;
+    border-radius: 15px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    font-size: 20px;
+    color: white;
+}
+.info h1 {
+    font-size: 50px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 70px;
+    gap: 2rem;
+    color: white;
+    background-color: black;
+}
+.gallery h1 {
+    font-size: 50px;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 17rem);
+    grid-template-rows: repeat(2, 17rem);
+}
+.images img{
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 14rem;
+    width: 14rem;
+}
+video {
+    width: 770px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
