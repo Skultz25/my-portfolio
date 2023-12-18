@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <meta name="viewport" content="width=device -width, initial-scale=1.0">
+    <title>Passcode Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Enter Passcode</h2>
+        <div class="content">
+            <input type="text" id="password" name="passcode" required>
+        </div>
+        <button onclick="checkpasscode()">LOG IN</button>
+    </div>
+    <script>
+        function checkpasscode() {
+            const myPassword = "skultz";
+
+            var password = document.getElementById('password').value;
+
+            if (myPassword == password) {
+                console.log(password)
+                window.location.href = "profile.html";
+            }
+            else if (password == '' || password == null) {
+                alert('Enter password');
+            }
+            else if (password != myPassword) {
+                alert('Password is incorrect .Try again.');
+            }
+        }
+    </script>
+</body>
+
+</html>
